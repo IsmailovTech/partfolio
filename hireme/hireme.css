@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+body{
+    width: 100%;
+    height: max-content;
+    min-height: 100vh;  
+}
+.container{
+    width: 100%;
+    height: max-content;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+}
+
+.Card{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction: column;
+    
+}
+
+.Card-img{
+    width: 140px;
+    height: 140px;
+    background-image: url(../images/hire.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+.Card-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Card-info h1{
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 38px;
+}
+
+.Card-info span{
+    color: rgb(0, 102, 77);
+}
+
+.Card-info h3{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 10px;
+    color: rgb(65, 65, 65);
+}
+
+.contact{
+    width: max-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mail-img{
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    background-image: url(https://image.flaticon.com/icons/png/512/732/732200.png);
+    background-size: cover;
+}
+
+.btn-1{
+    width: 200px;
+    height: 50px;
+    border-style:none;
+    background-color: rgb(245, 8, 8);
+    
+    border-radius: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+
+.btn-1:hover{
+    background-color: rgb(228, 0, 0);
+    zoom: 1.1;
+    transition: 0.15s;
+    font-weight: 20;
+    color: white;
+    box-shadow: rgb(114, 114, 114) 0px 5px 15px;
+}
+
+.telegram{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.teleg-img{
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    background-image: url(https://image.flaticon.com/icons/png/512/906/906377.png);
+    background-size: cover;
+}
+
+.btn-2{
+    width: 200px;
+    height: 50px;
+    border-style:none;
+    background-color: rgb(0, 144, 211);
+    border-radius: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+
+.btn-2:hover{
+    background-color: rgb(1, 104, 145);
+    transition: 0.15s;
+    font-weight: 20;
+    color: white;
+    box-shadow: rgb(114, 114, 114) 0px 5px 15px;
+    zoom: 1.1;
+}
+
+a{
+    color: black;
+}
+
+.icon{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.icon a{
+    color: rgb(194, 2, 114);
+    
+}
+
+.icon a:hover{
+    color: rgb(139, 0, 81);
+    zoom: 1.1;
+}
