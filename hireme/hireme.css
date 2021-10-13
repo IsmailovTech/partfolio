@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-a{
+a {
     color: black;
 }
 
-body{
+body {
     width: 100%;
     height: max-content;
-    min-height: 100vh;  
+    min-height: 100vh;
 }
-.container{
+
+.container {
     width: 100%;
     height: max-content;
     min-height: 100vh;
@@ -27,30 +27,30 @@ body{
     background-size: cover;
 }
 
-.Card{
+.Card {
     width: 500px;
     height: 600px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     display: flex;
-    align-items:center;
-    justify-content:flex-start;
+    align-items: center;
+    justify-content: flex-start;
     flex-direction: column;
-    
 }
 
-.Card-img{
+.Card-img {
     width: 140px;
     height: 140px;
     background-image: url(../images/hire.jpg);
     background-size: cover;
     border-radius: 50%;
     margin-top: 10px;
-    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    ;
 }
 
-.Card-info{
+.Card-info {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,23 +58,24 @@ body{
     text-align: center;
 }
 
-.Card-info h1{
+.Card-info h1 {
     margin-top: 50px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 38px;
+    color: white;
 }
 
-.Card-info span{
-    color: rgb(0, 102, 77);
+.Card-info span {
+    color: rgb(2, 190, 143);
 }
 
-.Card-info h3{
+.Card-info h3 {
     font-family: 'Ubuntu', sans-serif;
     margin-top: 10px;
-    color: rgb(65, 65, 65);
+    color: rgb(177, 176, 176);
 }
 
-.contact{
+.contact {
     width: max-content;
     height: auto;
     display: flex;
@@ -82,12 +83,13 @@ body{
     margin-top: 25px;
 }
 
-.mail{
+.mail {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.mail-img{
+
+.mail-img {
     width: 60px;
     height: 60px;
     margin: 8px;
@@ -95,19 +97,18 @@ body{
     background-size: cover;
 }
 
-.btn-1{
+.btn-1 {
     width: 200px;
     height: 50px;
-    border-style:none;
+    border-style: none;
     background-color: rgb(245, 8, 8);
-    
     border-radius: 3px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     color: rgb(0, 0, 0);
 }
 
-.btn-1:hover{
+.btn-1:hover {
     background-color: rgb(228, 0, 0);
     zoom: 1.1;
     transition: 0.15s;
@@ -116,13 +117,13 @@ body{
     box-shadow: rgb(114, 114, 114) 0px 5px 15px;
 }
 
-.telegram{
+.telegram {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.teleg-img{
+.teleg-img {
     width: 60px;
     height: 60px;
     margin: 8px;
@@ -130,10 +131,10 @@ body{
     background-size: cover;
 }
 
-.btn-2{
+.btn-2 {
     width: 200px;
     height: 50px;
-    border-style:none;
+    border-style: none;
     background-color: rgb(0, 144, 211);
     border-radius: 3px;
     font-family: 'Ubuntu', sans-serif;
@@ -141,7 +142,7 @@ body{
     color: rgb(0, 0, 0);
 }
 
-.btn-2:hover{
+.btn-2:hover {
     background-color: rgb(1, 104, 145);
     transition: 0.15s;
     font-weight: 20;
@@ -150,22 +151,21 @@ body{
     zoom: 1.1;
 }
 
-a{
+a {
     color: black;
 }
 
-.icon{
+.icon {
     position: absolute;
     left: 20px;
     top: 20px;
 }
 
-.icon a{
+.icon a {
     color: rgb(194, 2, 114);
-    
 }
 
-.icon a:hover{
+.icon a:hover {
     color: rgb(139, 0, 81);
     zoom: 1.1;
 }
